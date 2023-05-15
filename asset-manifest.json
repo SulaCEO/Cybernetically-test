@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cybernetically-test/static/css/main.ae2af8ce.css",
+    "main.js": "/Cybernetically-test/static/js/main.8606a296.js",
+    "index.html": "/Cybernetically-test/index.html",
+    "main.ae2af8ce.css.map": "/Cybernetically-test/static/css/main.ae2af8ce.css.map",
+    "main.8606a296.js.map": "/Cybernetically-test/static/js/main.8606a296.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae2af8ce.css",
+    "static/js/main.8606a296.js"
+  ]
+}
