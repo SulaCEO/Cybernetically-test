@@ -4,20 +4,20 @@
 
 ## Библиотеки:
 
-#### REDUX/REDUX-TOOLKIT:
+### REDUX/REDUX-TOOLKIT:
 State management [REDUX](https://redux.js.org).
 
-#### AXIOS:
+### AXIOS:
 HTTP-запросы [AXIOS](https://www.npmjs.com/package/axios).
 
-#### REACT-ROUTER-DOM:
+### REACT-ROUTER-DOM:
 Маршрутизация [REACT ROUTER DOM](https://www.npmjs.com/package/react-router-dom).
 
-#### REACT-BEAUTIFUL-DND:
+### REACT-BEAUTIFUL-DND:
 Перетаскивание [REACT BEAUTIFUL DND](https://github.com/atlassian/react-beautiful-dnd).
 
-#### NODE-SASS:
+### NODE-SASS:
 Библиотека стилей [NODE SASS](https://www.npmjs.com/package/node-sass).
 
-#### REACT-ICONS:
+### REACT-ICONS:
 Библиотека иконок [REACT ICONS](https://react-icons.github.io/react-icons).
