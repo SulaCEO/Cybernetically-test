@@ -1,6 +1,7 @@
-# Cybernetically
+# Cybernetically test
 
-Данный проект был реализован с помошью библиотеки [Create React App](https://github.com/facebook/create-react-app).
+Приложение, которое предоставляет отчеты акций разных компаний.
+
 
 ## Библиотеки:
 
