@@ -1,0 +1,27 @@
+// Шрифты:
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+// Reset:
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    font-size: 16px;
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    input{
+        border: none;
+        outline: none;
+    }
+}
+
+// Импорты стилей:
+@import url('../../pages/Home/home.scss');
+@import url('../../pages/NotFound/NotFound.scss');
+@import url('../../Layout/Header/Header.scss');
+@import url('../../components/Preload/Preload.scss');

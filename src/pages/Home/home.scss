@@ -1,0 +1,102 @@
+.table{
+    max-width: 1020px;
+    max-height: 528px;
+    margin: 30px auto;
+    margin-top: 100px;
+    border: 0.5px solid #e0e3eb;
+    th, td{
+        width: 150px;
+    }
+    &__header, &__body{
+        height: 48px;
+        display: flex;
+    }
+    &__header, &__body{
+        border: 0.5px solid #e0e3eb;
+    }
+    &__hcell, &__cell{
+        height: 100%;
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+    &__hcell{
+        color: #6A6D78;
+        &:nth-child(1n+2){
+            border-left: 1px solid #e0e3eb;
+        }
+        .hcell__title{
+            &-name{
+                font-size: 14px;
+                color: #6A6D78;  
+            }
+            &-count{
+                font-size: 13px;
+                color: black;
+            }
+        }
+        .hcell__search{
+            margin-left: 32px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            &-inp{
+                border: 1px solid #d1d4dc;
+                border-radius: 4px;
+                color: #131722;
+                font-size: 14px;
+                padding: 7px 36px 7px;
+            }
+            &-icon{
+                position: absolute;
+                display: flex;
+                left: 10px;
+            }
+        }
+    }
+    &__cell{
+        color: #131722;
+        position: relative;
+        &:nth-child(1n+2){
+            border-left: 1px solid #e0e3eb;
+        }
+        &-price{
+            color: #787b86;
+            font-size: 12px;
+            margin-left: 3px;
+            position: relative;
+            bottom: -1px;
+        }
+        .cell__title{
+            display: flex;
+            flex-direction: column;
+            &-shname{
+                color: #2962ff;
+                font-size: 15px;
+            }
+            &-fullname{
+                margin-top: 2px;
+                font-size: 12px;
+            }
+        }
+    }
+    
+    .cl{
+        &-number{
+            width: 50px;
+        }
+        &-title{
+            justify-content: flex-start;
+            padding: 0 20px;
+            width: 350px;
+        }
+    }
+}
+
+// Pagination:
+.MuiPagination-root{
+    display: flex;
+    justify-content: center;
+}

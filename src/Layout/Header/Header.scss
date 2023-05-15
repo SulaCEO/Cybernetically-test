@@ -1,0 +1,32 @@
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    border-bottom: 1px solid #e0e3eb;
+    padding: 20px 0;
+    z-index: 10;
+    &__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 40px;
+    }
+    &__logo{
+        &-name{
+            cursor: pointer;
+            a{
+                font-weight: 500;
+                font-size: 30px;
+                text-decoration: none;
+            }
+        }
+    }
+    &__needful, &__all{
+        cursor: pointer;
+        color: #2962ff;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
