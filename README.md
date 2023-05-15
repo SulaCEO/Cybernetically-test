@@ -2,11 +2,20 @@
 
 Приложение, которое предоставляет отчеты акций разных компаний.
 
+# Возникшие сложности:
 
-## Библиотеки:
+###Была сложность с API:
+1) Я не мог найти список отчетов акций с несколькими элементами, ведь у нужных мне данных был всегда только 1 элемент. Поэтому пришлось взять [https://iexcloud.io/docs/core/STOCK_COLLECTION](https://iexcloud.io/docs/core/STOCK_COLLECTION), но тут не было достаточно информации.
+2) Не было нужных параметров url запроса, и мне пришлось вручную писать limit и offset в функции запроса.
+
+
+# Библиотеки:
 
 ### REDUX/REDUX-TOOLKIT:
 State management [REDUX](https://redux.js.org).
+
+### IEX CLOUD:
+API [IEX CLOUD](https://iexcloud.io/).
 
 ### AXIOS:
 HTTP-запросы [AXIOS](https://www.npmjs.com/package/axios).
